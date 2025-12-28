@@ -23,6 +23,8 @@ systemctl enable --now NetworkManager.service   # Network management
 systemctl enable --now bluetooth.service        # Bluetooth support (bluez)
 systemctl enable --now fwupd.service            # Firmware updates
 systemctl enable --now stubby.service           # DNS-over-TLS resolver
+systemctl enable --now snapper-timeline.timer   # BTRFS snapshots create
+systemctl enable --now snapper-cleanup.timer    # BTRFS snapshots cleanup
 
 # User services (these should be run per-user, not system-wide)
 # Note: These will be started when the user logs in
