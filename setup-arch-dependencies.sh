@@ -9,8 +9,9 @@ pacman -S acpica brightnessctl bind-tools biome blueman bluez clang curl \
   lz4 mako man-db mise most networkmanager network-manager-applet \
   noto-fonts-cjk npm nvim pavucontrol perl pipewire pipewire-alsa \
   pipewire-jack pipewire-pulse prettier python python-pip rofi rust-analyzer \
-  starship stubby stylua tokei tmux tree ttf-jetbrains-mono-nerd uv vlc \
-  vlc-plugins-all waybar wget wireplumber wl-clipboard zig zoxide
+  snap-pac snapper starship stubby stylua timeshift tmux tokei tree \
+  ttf-jetbrains-mono-nerd uv vlc vlc-plugins-all waybar wget wireplumber \
+  wl-clipboard zig zoxide
 
 cargo install --locked tree-sitter-cli
 
