@@ -8,9 +8,9 @@ pacman -S acpica brightnessctl bind-tools biome blueman bluez clang curl \
   fwupd git github-cli keepassxc kitty go hyprland jq less lua luarocks ly \
   lz4 mako man-db mise most networkmanager network-manager-applet \
   noto-fonts-cjk npm nvim pavucontrol perl pipewire pipewire-alsa \
-  pipewire-jack pipewire-pulse prettier python python-pip rofi rust-analyzer \
-  snap-pac snapper starship stubby stylua timeshift tmux tokei tree \
-  ttf-jetbrains-mono-nerd uv vlc vlc-plugins-all waybar wget wireplumber \
+  pipewire-jack pipewire-pulse prettier python python-pip reflector rofi \
+  rust-analyzer snap-pac snapper starship stubby stylua timeshift tmux tokei \
+  tree ttf-jetbrains-mono-nerd uv vlc vlc-plugins-all waybar wget wireplumber \
   wl-clipboard zig zoxide
 
 cargo install --locked tree-sitter-cli
@@ -25,6 +25,7 @@ systemctl enable --now fwupd.service            # Firmware updates
 systemctl enable --now stubby.service           # DNS-over-TLS resolver
 systemctl enable --now snapper-timeline.timer   # BTRFS snapshots create
 systemctl enable --now snapper-cleanup.timer    # BTRFS snapshots cleanup
+systemctl enable --now reflector.timer          # Fetch and sort mirrors
 
 # User services (these should be run per-user, not system-wide)
 # Note: These will be started when the user logs in
