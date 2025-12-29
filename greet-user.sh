@@ -18,3 +18,5 @@ msg="${greetings[RANDOM % count]}"
 
 echo "Welcome back. $msg"
 echo ""
+
+./check-latest-full-system-upgrade.sh
