@@ -3,6 +3,8 @@
 
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 greetings=(
   "Don't work too hard. The sun will expand and engulf this CPU anyway."
   "Everything you do today will eventually be overwritten."
@@ -19,4 +21,4 @@ msg="${greetings[RANDOM % count]}"
 echo "Welcome back. $msg"
 echo ""
 
-./check-latest-full-system-upgrade.sh
+"$SCRIPT_DIR/check-latest-full-system-upgrade.sh"
