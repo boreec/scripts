@@ -7,7 +7,7 @@ pacman -S acpica brightnessctl bind-tools biome blueman bluez clang curl \
   dmidecode direnv dolphin efibootmgr efivar fd firefox firewalld fish fzf \
   fwupd git github-cli keepassxc kitty go hyprland jq less lua luarocks ly \
   lz4 mako man-db mise most networkmanager network-manager-applet \
-  noto-fonts-cjk npm nvim pavucontrol perl pipewire pipewire-alsa \
+  noto-fonts-cjk npm nvim pavucontrol perl pipewire pipewire-alsa pkg-config \
   pipewire-jack pipewire-pulse prettier python python-pip reflector rofi \
   rust-analyzer snap-pac snapper starship stubby stylua swayosd timeshift \
   tmux tokei tree ttf-jetbrains-mono-nerd uv vlc vlc-plugins-all waybar wget \
