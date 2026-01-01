@@ -3,10 +3,10 @@
 
 set -euo pipefail
 
-pacman -S acpica brightnessctl bind-tools biome blueman bluez clang curl \
-  dmidecode direnv dolphin efibootmgr efivar fd firefox firewalld fish fzf \
-  fwupd git github-cli keepassxc kitty go hyperfine hyprland jq less lua \
-  luarocks ly lz4 make mako man-db mise most ncdu networkmanager \
+pacman -S acpica brightnessctl bind-tools biome blueman bluez bottom clang \
+  curl dmidecode direnv dolphin efibootmgr efivar fd firefox firewalld fish \
+  fzf fwupd git github-cli keepassxc kitty go htop hyperfine hyprland jq less \
+  lua luarocks ly lz4 make mako man-db mise most ncdu networkmanager \
   network-manager-applet noto-fonts-cjk npm nvim pavucontrol perl pipewire \
   pipewire-alsa pkg-config pipewire-jack pipewire-pulse prettier python \
   python-pip reflector rofi rust-analyzer snap-pac snapper starship stubby \
