@@ -10,9 +10,9 @@ pacman -S acpica brightnessctl bind-tools biome blueman bluez bottom clang \
   network-manager-applet noto-fonts-cjk npm nvim pavucontrol perl pipewire \
   pipewire-alsa pkg-config pipewire-jack pipewire-pulse prettier python \
   python-pip reflector rofi rust-analyzer snap-pac snapper starship stubby \
-  stylua swayosd timeshift tldr tmux tokei tree ttf-jetbrains-mono-nerd upx \
-  uv vlc vlc-plugins-all waybar wget wireguard-tools wireplumber wl-clipboard \
-  zig zoxide
+  stylua swayimg swayosd timeshift tldr tmux tokei tree \
+  ttf-jetbrains-mono-nerd upx uv vlc vlc-plugins-all waybar wget \
+  wireguard-tools wireplumber wl-clipboard zig zoxide
 
 cargo install --locked tree-sitter-cli
 
