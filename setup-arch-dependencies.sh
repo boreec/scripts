@@ -3,9 +3,9 @@
 
 set -euo pipefail
 
-pacman -S acpica archlinux-xdg-menu brightnessctl bind-tools biome blueman \
-  bluez bottom clang curl dmidecode direnv dolphin efibootmgr efivar fd \
-  firefox firewalld fish fzf fwupd git github-cli keepassxc kitty go htop \
+pacman -S acpica archlinux-xdg-menu base-devel brightnessctl bind-tools biome \
+  blueman bluez bottom clang curl dmidecode direnv dolphin efibootmgr efivar \
+  fd firefox firewalld fish fzf fwupd git github-cli keepassxc kitty go htop \
   hyperfine hyprland jq less lua luarocks ly lz4 make mako man-db mise most \
   ncdu networkmanager network-manager-applet noto-fonts-cjk npm nvim \
   pacman-contrib pavucontrol perl pipewire pipewire-alsa pkg-config \
