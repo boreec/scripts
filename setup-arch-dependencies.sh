@@ -12,8 +12,9 @@ pacman -S acpica archlinux-xdg-menu base-devel brightnessctl bind-tools biome \
   pipewire-alsa pkg-config pipewire-jack pipewire-pulse prettier python \
   python-pip reflector rofi rust-analyzer slurp snap-pac snapper starship \
   stubby stylua swayimg swayosd timeshift tldr tmux tokei tree \
-  ttf-jetbrains-mono-nerd upx uv vlc vlc-plugins-all waybar wget \
-  wireguard-tools wireplumber wl-clipboard zig zoxide
+  ttf-jetbrains-mono-nerd typescript typescript-language-server upx uv vlc \
+  vlc-plugins-all waybar wget wireguard-tools wireplumber wl-clipboard zig \
+  zoxide
 
 cargo install --locked tree-sitter-cli
 
