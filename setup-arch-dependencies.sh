@@ -4,10 +4,10 @@
 set -euo pipefail
 
 pacman -S acpica archlinux-xdg-menu base-devel brightnessctl bind-tools biome \
-  blueman bluez bottom bun clang curl dmidecode direnv dolphin efibootmgr \
-  efivar fastfetch fd firefox firewalld fish fuse2 fuse3 fwupd fzf git \
-  github-cli glab grim keepassxc kitty go htop hyperfine hyprland jq less lua \
-  luarocks ly lz4 make mako man-db mise most ncdu networkmanager \
+  blueman bluez bottom bun clang curl dmidecode direnv docker dolphin \
+  efibootmgr efivar fastfetch fd firefox firewalld fish fuse2 fuse3 fwupd fzf \
+  git github-cli glab grim keepassxc kitty go htop hyperfine hyprland jq less \
+  lua luarocks ly lz4 make mako man-db mise most ncdu networkmanager \
   network-manager-applet noto-fonts-cjk npm nvim pacman-contrib pavucontrol \
   perl pipewire pipewire-alsa pkg-config pipewire-jack pipewire-pulse \
   prettier python python-pip reflector rofi rust-analyzer slurp snap-pac \
