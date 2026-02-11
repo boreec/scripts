@@ -29,12 +29,14 @@ systemctl enable --now stubby.service           # DNS-over-TLS resolver
 systemctl enable --now snapper-timeline.timer   # BTRFS snapshots create
 systemctl enable --now snapper-cleanup.timer    # BTRFS snapshots cleanup
 systemctl enable --now reflector.timer          # Fetch and sort mirrors
-systemctl enable --now docker
 
 # User services (these should be run per-user, not system-wide)
 # Note: These will be started when the user logs in
 systemctl --user enable pipewire.service
 systemctl --user enable pipewire-pulse.service
 systemctl --user enable wireplumber.service
+
+# Start daemons only when a client first connect.
+sudo systemctl enable --now docker.socket
 
 firewall-cmd --set-default-zone=drop
