@@ -14,7 +14,7 @@ pacman -S acpica archlinux-xdg-menu base-devel brightnessctl bind-tools biome \
   reflector rofi rust-analyzer slurp snap-pac snapper starship stubby stylua \
   swayimg swayosd timeshift tldr tmux tokei tree ttf-jetbrains-mono-nerd \
   typescript typescript-language-server typos upx uv vlc vlc-plugins-all \
-  waybar wget wireguard-tools wireplumber wl-clipboard zig zoxide
+  waybar wget wireguard-tools wireplumber wl-clipboard yamllint zig zoxide
 
 cargo install --locked tree-sitter-cli
 
