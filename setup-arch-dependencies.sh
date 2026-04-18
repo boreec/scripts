@@ -9,7 +9,7 @@ pacman -S acpica archlinux-xdg-menu aws-cli-v2 base-devel brightnessctl \
   firewalld fish fuse2 fuse3 fwupd fzf git github-cli glab grim keepassxc \
   kitty go htop hyperfine hyprland jq less lua luarocks ly lz4 make mako \
   man-db mise most mullvad-vpn ncdu networkmanager network-manager-applet \
-  noto-fonts-cjk npm nvim openresolv pacman-contrib pavucontrol perl pipewire \
+  noto-fonts-cjk npm nvim pacman-contrib pavucontrol perl pipewire \
   pipewire-alsa pipewire-jack pipewire-pulse pkg-config postgresql prettier \
   python python-pip qbittorrent reflector rofi rust-analyzer slurp snap-pac \
   snapper starship stubby stylua swayimg swayosd timeshift tldr tmux tokei \
