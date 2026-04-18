@@ -11,10 +11,11 @@ pacman -S acpica archlinux-xdg-menu aws-cli-v2 base-devel brightnessctl \
   man-db mise most ncdu networkmanager network-manager-applet noto-fonts-cjk \
   npm nvim pacman-contrib pavucontrol perl pipewire pipewire-alsa pkg-config \
   pipewire-jack pipewire-pulse postgresql prettier python python-pip \
-  reflector rofi rust-analyzer slurp snap-pac snapper starship stubby stylua \
-  swayimg swayosd timeshift tldr tmux tokei tree ttf-jetbrains-mono-nerd \
-  typescript typescript-language-server typos upx uv vlc vlc-plugins-all \
-  waybar wget wireguard-tools wireplumber wl-clipboard yamllint zig zoxide
+  qbittorrent reflector rofi rust-analyzer slurp snap-pac snapper starship \
+  stubby stylua swayimg swayosd timeshift tldr tmux tokei tree \
+  ttf-jetbrains-mono-nerd typescript typescript-language-server typos upx uv \
+  vlc vlc-plugins-all waybar wget wireguard-tools wireplumber wl-clipboard \
+  yamllint zig zoxide
 
 cargo install --locked tree-sitter-cli
 
